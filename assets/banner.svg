@@ -106,7 +106,7 @@
     <path class="wave-line" d="M -100 120 Q 350 60 750 140 T 1300 90" fill="none" stroke="#10b981" stroke-width="1.5" />
   </g>
 
-  <!-- Foreground Content: Guaranteed Full Legibility & Contrast -->
+  <!-- Foreground Content: Guaranteed Full Legibility &amp; Contrast -->
   <g transform="translate(600, 0)">
     <!-- Header Pill / Tag -->
     <g transform="translate(-185, 42)">
@@ -172,7 +172,7 @@
     <!-- Bottom Tech Tags -->
     <g transform="translate(-320, 382)">
       <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b" letter-spacing="1">
-        ✦ SAAS PLATFORMS &amp; BENCHMARKS &nbsp;|&nbsp; ✦ OPEN-SOURCE ECOSYSTEM &nbsp;|&nbsp; ✦ PRODUCTION CI/CD GATES
+        ✦ SAAS PLATFORMS &amp; BENCHMARKS &#160;|&#160; ✦ OPEN-SOURCE ECOSYSTEM &#160;|&#160; ✦ PRODUCTION CI/CD GATES
       </text>
     </g>
   </g>
