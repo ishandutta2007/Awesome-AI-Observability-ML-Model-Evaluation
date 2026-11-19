@@ -64,7 +64,7 @@ The global **AI Observability and LLM Evaluation market** is estimated at **$1.8
 ## 🔓 Open-Source GitHub Projects
 
 > [!TIP]
-> The table below showcases premier open-source frameworks for ML monitoring, LLM-as-a-judge evaluations, data drift calculations, and OpenTelemetry instrumentation. All repositories are sorted in descending order by **GitHub Stars_Count**. Stars_Badges link directly to each project's stargazers community.
+> The table below showcases premier open-source frameworks for ML monitoring, LLM-as-a-judge evaluations, data drift calculations, and OpenTelemetry instrumentation. All repositories are sorted in descending order by **GitHub_Stars_Count**. Stars_Badges link directly to each project's stargazers community.
 
 | Repository / Project | GitHub_Stars 🌟 | Primary Category / Focus 🏷️ | Core Description & Capabilities 💡 |
 | :--- | :---: | :--- | :--- |
