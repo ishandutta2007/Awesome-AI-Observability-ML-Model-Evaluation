@@ -1,227 +1,133 @@
-# Awesome-AI-Observability-ML-Model-Evaluation
+# Awesome AI Observability & ML Model Evaluation 🔍 🤖
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome AI Observability & ML Model Evaluation Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation?style=flat-square&logo=github" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation?style=flat-square" alt="GitHub Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+---
+
+## 🧭 Overview & Mission
+
+A curated index of top **Enterprise SaaS Platforms** and **Active Open-Source Projects** for **AI Observability, LLM Evaluation, and Machine Learning Model Monitoring**. 
+
+Modern production AI applications—ranging from traditional tabular predictors to complex agentic LLM pipelines and RAG architectures—require continuous validation against **data drift**, **concept drift**, **performance decay**, **groundedness failures**, **hallucinations**, and **latency anomalies**. This repository benchmarks both managed vendor platforms and community-driven, self-hosted open-source tooling across the entire MLOps lifecycle.
+
+---
+
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global **AI Observability and LLM Evaluation market** is estimated at **$1.8B to $2.4B in 2024–2025** and is projected to expand at an aggressive **CAGR of ~23%**, surpassing **$8.5B by 2032**, fueled by enterprise adoption of production Generative AI, autonomous agents, and mission-critical predictive ML. The sector has transitioned from being **moderately fragmented**—initially populated by specialized point-solution startups—toward a **rapidly consolidating, hybrid ecosystem** where major cloud data platforms (e.g., Snowflake, Databricks) and legacy APM giants (e.g., Dynatrace, Cisco/Splunk, Datadog) are acquiring or embedding native LLM evaluation and OpenTelemetry tracing suites, while nimble open-source standards retain deep grassroots developer dominance.
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+> [!NOTE]
+> The table below compares top commercial AI and ML observability platforms, ranked in descending order by **Company Scale** (Valuation, Market Cap, or Acquisition Valuation). Specific starting tier prices and explicit free tier / trial boundaries are detailed for production architecture evaluation.
+
+| Product / Platform | Company Scale (Valuation / Revenue) 📈 | Starting Paid Tier 💳 | Free Plan Limits / Free Trial Period 🎁 | Primary Capabilities & Focus Areas 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Snowflake AI Observability (formerly TruEra)](https://snowflake.com)** | **$55B – $75B** Market Cap (~$3.6B+ ARR) | Usage-based compute starting at ~$2.00–$2.20 per AI credit / Cortex capacity | **30-day free trial** with **$400 free platform credits** across Snowflake Cortex & TruLens governance suites | Enterprise data cloud platform embedding TruEra & TruLens for RAG groundedness, hallucination mitigation, context relevance, and model drift. |
+| **[LangSmith (LangChain)](https://smith.langchain.com)** | **$3.0B** Valuation ($460M raised) | **$39 / seat / month** (Plus Plan) | **Free forever plan**: Up to 1 seat, **5,000 traces/month**, and 14 days data retention | End-to-end LLM application lifecycle platform from LangChain for trace debugging, regression test suites, prompt playground, and online evaluation. |
+| **[Weights & Biases (Models & Weave)](https://wandb.ai)** | **$1.7B** Valuation (~$50M+ ARR) | **$50 / user / month** (Team Plan) | **Free forever plan**: Up to 5 model seats, 100 GB storage, and **1 GB/month** Weave LLM trace ingestion | MLOps and LLMOps foundation uniting ML experiment tracking, model registry governance, artifact versioning, and Weave agent tracing. |
+| **[Monte Carlo Data](https://montecarlodata.com)** | **$1.6B** Valuation ($230M+ raised) | Enterprise contract starting at **~$25,000 / year** | **14 to 30-day Proof-of-Concept (POC)** free trial evaluating designated warehouse/lakehouse tables | End-to-end data and AI pipeline observability platform monitoring feature stores, vector databases, freshness, volume, and schema integrity. |
+| **[Arize AI (Arize AX)](https://arize.com)** | **$915M** (Acquired by Dynatrace) | **$50 / month** flat rate (AX Pro Plan) | **Free forever plan** (AX Free): **25,000 spans/month**, 1 GB storage, 15 days retention, unlimited users & eval workflows | Enterprise ML/LLM observability with high-dimensional embedding drift visualization, OpenTelemetry tracing, and automated judge evaluators. |
+| **[Braintrust](https://braintrust.dev)** | **$800M** Valuation ($120M+ raised) | **$249 / month** platform fee (Pro Plan) | **Free forever plan** (Starter Plan): **1 GB processed data/month**, **10,000 scores/month**, $10 model credits, 14 days retention | Enterprise AI evaluation engine transforming production logs into golden benchmark datasets with automated CI/CD scoring workflows. |
+| **[Fiddler AI](https://fiddler.ai)** | **$400M** Valuation ($100M+ raised) | **$0.002 / trace** (Developer Usage Tier) | **Free forever tier**: Unlimited real-time Centor guardrails for prompt injection, jailbreaks, PII, and toxicity | Real-time predictive ML monitoring, SHAP explainability, and ultra-low latency guardrails mitigating hallucinations and adversarial safety breaches. |
+| **[Galileo](https://rungalileo.io)** | **~$250M – $300M** Est. ($68M raised) | **$100 / month** billed annually (Pro Plan) | **Free forever plan**: Up to **5,000 traces/month**, unlimited users, and unlimited custom evaluations | Enterprise LLM evaluation and real-time guardrail platform featuring Luna evaluation models, hallucination scoring, and RAG error clustering. |
+| **[Arthur AI (Scope & Shield)](https://arthur.ai)** | **~$150M – $200M** Est. ($65.7M raised) | **$60 / month** (Premium Plan) | **Free forever plan**: **4 use cases**, 2 projects, **300,000 spans**, 12k inferences, and 7 days retention | Model monitoring and LLM firewall platform delivering bias/fairness auditing, data drift detection, and production prompt defense. |
+| **[Evidently Cloud](https://evidentlyai.com)** | **~$60M – $80M** Est. ($15M Series A) | **$80 / month** (Pro Plan) | **Free forever plan** (Developer Plan): 2 seats, **10,000 rows/month**, 1 GB snapshot storage, and 3 projects | Managed cloud platform for continuous ML/LLM evaluation test suites, automated regression alerts, drift dashboards, and synthetic data generation. |
+| **[WhyLabs](https://whylabs.ai)** | **$37M** (Acquired by Apple) | **$125 / month** (Expert Plan) | **Free forever plan** (Starter Plan): Up to **10 million predictions/month**, 200 features/project, and daily monitoring | Privacy-preserving AI observability using statistical data sketches (`whylogs`) to detect data drift and anomalies without raw payload inspection. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+> [!TIP]
+> The table below showcases premier open-source frameworks for ML monitoring, LLM-as-a-judge evaluations, data drift calculations, and OpenTelemetry instrumentation. All repositories are sorted in descending order by **GitHub Star Count**. Star badges link directly to each project's stargazers community.
+
+| Repository / Project | GitHub Stars 🌟 | Primary Category / Focus 🏷️ | Core Description & Capabilities 💡 |
+| :--- | :---: | :--- | :--- |
+| **[Langfuse](https://github.com/langfuse/langfuse)** | [![Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers) | LLM Tracing & Eval Platform | Leading self-hostable open-source LLM engineering platform for full-stack trace observability, prompt versioning, evaluations, and latency/cost analytics. |
+| **[SigNoz](https://github.com/SigNoz/signoz)** | [![Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers) | Full-Stack OpenTelemetry APM | High-performance open-source APM native to OpenTelemetry, unifying distributed traces, application logs, and GPU/model performance metrics. |
+| **[MLflow](https://github.com/mlflow/mlflow)** | [![Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers) | MLOps & LLM Lifecycle | Ubiquitous open-source MLOps platform featuring comprehensive experiment tracking, model registry, `mlflow.evaluate()` automated ML/LLM scoring, and OTel tracing. |
+| **[Promptfoo](https://github.com/promptfoo/promptfoo)** | [![Stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers) | Prompt CI/CD & Red-Teaming | Blazing-fast CLI and test library for declarative LLM benchmarking, security scanning, prompt injection defense, and continuous integration regression gating. |
+| **[SHAP](https://github.com/shap/shap)** | [![Stars](https://img.shields.io/github/stars/shap/shap?style=social&color=white)](https://github.com/shap/shap/stargazers) | ML Model Explainability | Standard game-theoretic approach (Shapley Additive exPlanations) for explaining complex model predictions and uncovering localized bias or feature anomalies. |
+| **[Opik](https://github.com/comet-ml/opik)** | [![Stars](https://img.shields.io/github/stars/comet-ml/opik?style=social&color=white)](https://github.com/comet-ml/opik/stargazers) | LLM Tracing & Evaluation | Open-source platform from Comet designed for high-throughput LLM span tracing, automated evaluators, dataset annotation, and regression tracking. |
+| **[DeepEval](https://github.com/confident-ai/deepeval)** | [![Stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white)](https://github.com/confident-ai/deepeval/stargazers) | Unit-Testing LLM Framework | Pytest-like evaluation framework delivering 40+ research-backed metrics for RAG faithfulness, hallucination rates, contextual recall, and automated judge scoring. |
+| **[Ragas](https://github.com/explodinggradients/ragas)** | [![Stars](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&color=white)](https://github.com/explodinggradients/ragas/stargazers) | RAG Pipeline Evaluation | Widely adopted framework specialized in measuring retrieval precision, context recall, answer groundedness, and synthetic test dataset generation for RAG pipelines. |
+| **[Arize Phoenix](https://github.com/Arize-ai/phoenix)** | [![Stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social&color=white)](https://github.com/Arize-ai/phoenix/stargazers) | AI Observability & Tracing | OpenTelemetry-native AI observability engine featuring interactive trace waterfalls, UMAP embedding drift clusters, RAG diagnostics, and notebook evaluation. |
+| **[LIME](https://github.com/marcotcr/lime)** | [![Stars](https://img.shields.io/github/stars/marcotcr/lime?style=social&color=white)](https://github.com/marcotcr/lime/stargazers) | Local Model Interpretability | Local Interpretable Model-agnostic Explanations for explaining what individual ML classifiers and regressors are doing to support drift investigations. |
+| **[Great Expectations](https://github.com/great-expectations/great_expectations)** | [![Stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social&color=white)](https://github.com/great-expectations/great_expectations/stargazers) | Data Quality & Pipeline Testing | Industry standard for data pipeline validation, preventing silent schema drifts, null spikes, and contaminated training features from breaking production models. |
+| **[Cleanlab](https://github.com/cleanlab/cleanlab)** | [![Stars](https://img.shields.io/github/stars/cleanlab/cleanlab?style=social&color=white)](https://github.com/cleanlab/cleanlab/stargazers) | Data-Centric AI & Label Errors | Open-source framework for detecting label errors, dataset corruptions, out-of-distribution inputs, and data curation defects in ML datasets. |
+| **[Evidently](https://github.com/evidentlyai/evidently)** | [![Stars](https://img.shields.io/github/stars/evidentlyai/evidently?style=social&color=white)](https://github.com/evidentlyai/evidently/stargazers) | ML & LLM Drift Monitoring | Flagship Python library and interactive UI for evaluating, testing, and monitoring ML models with 100+ built-in checks for tabular drift, accuracy decay, and LLM text quality. |
+| **[OpenLLMetry](https://github.com/traceloop/openllmetry)** | [![Stars](https://img.shields.io/github/stars/traceloop/openllmetry?style=social&color=white)](https://github.com/traceloop/openllmetry/stargazers) | OpenTelemetry GenAI Instrumentation | OpenTelemetry instrumentation extensions capturing standardized traces, prompt variables, and latency metrics across LLM SDKs and agent libraries. |
+| **[River](https://github.com/online-ml/river)** | [![Stars](https://img.shields.io/github/stars/online-ml/river?style=social&color=white)](https://github.com/online-ml/river/stargazers) | Streaming Machine Learning & Drift | Python library for streaming online machine learning with built-in real-time concept drift detectors including ADWIN, DDM, and Page-Hinkley. |
+| **[Giskard](https://github.com/Giskard-AI/giskard)** | [![Stars](https://img.shields.io/github/stars/Giskard-AI/giskard?style=social&color=white)](https://github.com/Giskard-AI/giskard/stargazers) | AI QA & Vulnerability Scanning | Automated testing framework for both traditional predictive models and LLMs, scanning for biases, data leaks, hallucinations, and security vulnerabilities. |
+| **[Deepchecks](https://github.com/deepchecks/deepchecks)** | [![Stars](https://img.shields.io/github/stars/deepchecks/deepchecks?style=social&color=white)](https://github.com/deepchecks/deepchecks/stargazers) | Continuous ML Validation Suites | Full-lifecycle validation library for tabular, NLP, and computer-vision models checking data integrity, train-test leakage, and production distributions. |
+| **[TruLens](https://github.com/truera/trulens)** | [![Stars](https://img.shields.io/github/stars/truera/trulens?style=social&color=white)](https://github.com/truera/trulens/stargazers) | RAG Feedback Functions | Systematic evaluation library for LLMs and RAG stacks utilizing programmable feedback functions (Context Relevance, Groundedness, Answer Relevance). |
+| **[OpenLIT](https://github.com/openlit/openlit)** | [![Stars](https://img.shields.io/github/stars/openlit/openlit?style=social&color=white)](https://github.com/openlit/openlit/stargazers) | OTel AI & GPU Observability | OpenTelemetry-native AI engineering platform providing zero-code auto-instrumentation for 50+ LLMs, vector databases, GPU usage, and hallucination scores. |
+| **[AI Fairness 360 (AIF360)](https://github.com/Trusted-AI/AIF360)** | [![Stars](https://img.shields.io/github/stars/Trusted-AI/AIF360?style=social&color=white)](https://github.com/Trusted-AI/AIF360/stargazers) | Algorithmic Bias & Fairness | IBM's extensible open-source toolkit helping data scientists examine, report, and mitigate algorithmic bias throughout machine learning model workflows. |
+| **[whylogs](https://github.com/whylabs/whylogs)** | [![Stars](https://img.shields.io/github/stars/whylabs/whylogs?style=social&color=white)](https://github.com/whylabs/whylogs/stargazers) | Statistical Data Logging | Compact logging standard generating mathematical summaries and statistical sketches of data streams to detect distribution drift with zero data egress. |
+| **[Alibi Detect](https://github.com/SeldonIO/alibi-detect)** | [![Stars](https://img.shields.io/github/stars/SeldonIO/alibi-detect?style=social&color=white)](https://github.com/SeldonIO/alibi-detect/stargazers) | Outlier & Drift Detection | Seldon's algorithms library specializing in outlier detection, adversarial perturbation detection, and statistical concept drift across tabular, text, and images. |
+| **[Soda Core](https://github.com/sodadata/soda-core)** | [![Stars](https://img.shields.io/github/stars/sodadata/soda-core?style=social&color=white)](https://github.com/sodadata/soda-core/stargazers) | Data Reliability Testing | Declarative SQL-based data validation and reliability CLI verifying upstream feature tables and warehouse sources feeding downstream inference pipelines. |
+| **[Elementary](https://github.com/elementary-data/elementary)** | [![Stars](https://img.shields.io/github/stars/elementary-data/elementary?style=social&color=white)](https://github.com/elementary-data/elementary/stargazers) | dbt-Native Data Observability | Open-source data observability and automated anomaly detection built natively on dbt, monitoring data pipeline regressions and warehouse tables. |
+| **[Fairlearn](https://github.com/fairlearn/fairlearn)** | [![Stars](https://img.shields.io/github/stars/fairlearn/fairlearn?style=social&color=white)](https://github.com/fairlearn/fairlearn/stargazers) | ML Fairness & Disparity Metrics | Python library empowering developers to assess and improve the fairness of artificial intelligence systems by measuring disparate performance impact. |
+| **[NannyML](https://github.com/NannyML/nannyml)** | [![Stars](https://img.shields.io/github/stars/NannyML/nannyml?style=social&color=white)](https://github.com/NannyML/nannyml/stargazers) | Label-Free ML Performance Estimation | Specialized post-deployment model monitoring library that estimates production model degradation (using CBPE and DLE) when ground-truth labels are delayed. |
+| **[OpenInference](https://github.com/Arize-ai/openinference)** | [![Stars](https://img.shields.io/github/stars/Arize-ai/openinference?style=social&color=white)](https://github.com/Arize-ai/openinference/stargazers) | OTel GenAI Semantic Standards | OpenTelemetry semantic conventions and instrumentation packages standardizing how LLM prompts, completions, embeddings, and tool calls are captured. |
+
+---
+
+## ⭐ Star History
 
-## Top AI Observability & ML Model Evaluation Ecosystem
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation&type=date&legend=top-left)
 
+---
 
+## 💖 Support & Community
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+Thank you for exploring and bookmarking this repository! 🙏
 
-*Focused on ML & LLM Production Monitoring, Data & Concept Drift Detection, Model Evaluation Suites, OpenTelemetry AI Tracing & Data Quality Observability*  
+If you find this curated collection useful for your MLOps architecture, research, or production system evaluations, please consider supporting the project:
+- ⭐ **Star this repository** to help others discover it across GitHub.
+- 🍴 **Fork and contribute** your favorite observability tools, benchmarks, and guides.
+- 📢 **Share it** with colleagues, MLOps teams, and developer communities.
+- ☕ **Support the maintainer** with a virtual coffee via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
-**Last updated: November 2026**
+Your support keeps this directory updated, impartial, and aligned with cutting-edge production AI breakthroughs!
 
+---
 
+## 🤝 How to Contribute
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Observability & ML Model Evaluation**. These tools monitor machine learning and generative AI models in production, detect data/concept drift and performance degradation, evaluate LLM/RAG faithfulness and hallucination rates, and validate training and inference data pipelines.
+Contributions are wholeheartedly welcomed! Please follow these simple steps:
+1. Fork the repository.
+2. Add your suggested tool or framework under the corresponding category (keep descriptions factual, concise, and linked directly to official repositories/websites).
+3. Ensure table formatting remains consistent and aligned.
+4. Open a clear Pull Request with a short summary of the addition.
 
+---
 
+## ⚖️ Disclaimer
 
-**Examples** include Arize AI, Fiddler AI, WhyLabs, TruEra (Snowflake), Galileo, Arthur AI, Gantry, Monte Carlo Data, Evidently Cloud, Weights & Biases, and evidentlyai/evidently (the category leaders). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for ML/LLM drift and evaluation suites (`Evidently`, `Arize Phoenix`, `DeepChecks`, `NannyML`, `WhyLogs`), OpenTelemetry AI observability (`OpenLIT`, `OpenLLMetry`, `Langfuse`), unit-test LLM eval frameworks (`DeepEval`, `Ragas`, `Promptfoo`, `Giskard`), and data validation engines (`Great Expectations`, `Soda Core`) — ideal for MLOps engineers, data scientists, and AI platform teams building transparent, self-hosted observability stacks.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Arize AI (Arize AX)](https://arize.com)**  
-
-  Enterprise ML and LLM observability platform offering root-cause drift analysis, embedding visualization, OpenTelemetry span tracing, and automated AI evaluation workflows.
-
-
-
-- **[Fiddler AI](https://fiddler.ai)**  
-
-  Enterprise AI observability and governance platform providing real-time predictive ML drift monitoring, explainability (SHAP), hallucination metrics, and sub-100ms guardrails.
-
-
-
-- **[Evidently Cloud](https://evidentlyai.com)**  
-
-  Managed cloud platform built around Evidently for tracking ML and LLM evaluation test suites, data drift dashboards, synthetic test generation, and regression alerts.
-
-
-
-- **[Weights & Biases (Models & Weave)](https://wandb.ai)**  
-
-  End-to-end AI developer platform uniting ML experiment tracking, model registry governance, and W&B Weave for LLM/agent tracing and evaluation.
-
-
-
-- **[Snowflake AI Observability (formerly TruEra)](https://snowflake.com)**  
-
-  Enterprise AI quality and observability suite providing automated RAG groundedness scoring, model diagnostics, explainability, and governance inside cloud data platforms.
-
-
-
-- **[Galileo](https://rungalileo.io)**  
-
-  Enterprise AI evaluation and observability suite featuring real-time hallucination guardrails, agentic trajectory metrics, RAG attribution scoring, and automated error clustering.
-
-
-
-- **[Arthur AI (Arthur Scope & Shield)](https://arthur.ai)**  
-
-  Enterprise model monitoring and real-time LLM firewall platform delivering performance tracking, fairness/bias auditing, data drift alerts, and prompt protection.
-
-
-
-- **[WhyLabs](https://whylabs.ai)**  
-
-  Privacy-first AI observability and security platform powered by statistical data profiling (`whylogs`) to detect data drift, anomalies, and LLM policy violations without raw data ingestion.
-
-
-
-- **[Monte Carlo Data](https://montecarlodata.com)**  
-
-  End-to-end data and AI observability platform monitoring data pipelines, feature stores, and vector ingestion workflows for freshness, volume, and schema anomalies.
-
-
-
-- **[Gantry / Braintrust / LangSmith](https://braintrust.dev)**  
-
-  Continuous AI evaluation and production feedback platforms designed to turn production model logs into curated golden datasets and prevent quality regressions across releases.
-
-
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Evidently (`evidentlyai/evidently`)](https://github.com)**  
-
-  Flagship open-source (`Apache-2.0`) Python library and monitoring UI for evaluating, testing, and monitoring ML and LLM models—featuring 100+ built-in metrics for data drift, classification/regression quality, and LLM-as-a-judge checks.
-
-
-
-- **[Arize Phoenix (`Arize-ai/phoenix`)](https://github.com)**  
-
-  Open-source (`ELv2`) OpenTelemetry-native AI observability and evaluation tool featuring interactive trace waterfalls, embedding drift clusters, RAG diagnostics, and notebook integration.
-
-
-
-- **[Deepchecks (`deepchecks/deepchecks`)](https://github.com)**  
-
-  Comprehensive open-source (`AGPL-3.0`) continuous validation suite for tabular, NLP, and computer-vision ML models covering data integrity, train-test drift, and model performance checks.
-
-
-
-- **[NannyML (`NannyML/nannyml`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) post-deployment ML monitoring library capable of estimating model performance (`CBPE` / `DLE`) in production even when ground-truth labels are delayed or unavailable.
-
-
-
-- **[whylogs (`whylabs/whylogs`)](https://github.com)**  
-
-  Lightweight open-source (`Apache-2.0`) data and ML logging standard generating mergeable statistical profiles to track data drift, data quality constraints, and LLM telemetry at scale.
-
-
-
-- **[Langfuse (`langfuse/langfuse`)](https://github.com)**  
-
-  Leading self-hostable open-source LLM engineering platform for full-stack trace observability, dataset evaluation runs, prompt versioning, and cost/latency analytics.
-
-
-
-- **[OpenLIT (`openlit/openlit`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) OpenTelemetry-native AI engineering platform providing zero-code instrumentation for 50+ LLM providers, vector databases, GPU metrics, and hallucination evaluations.
-
-
-
-- **[OpenLLMetry (`traceloop/openllmetry`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) set of OpenTelemetry instrumentation extensions capturing standardized traces and metrics from LLMs and agent frameworks into any OTel backend.
-
-
-
-- **[TruLens (`truera/trulens`)](https://github.com)**  
-
-  Open-source (`MIT`) library for systematically evaluating and tracking LLM and RAG applications using programmable Feedback Functions (Groundedness, Context Relevance, Answer Relevance).
-
-
-
-- **[DeepEval (`confident-ai/deepeval`)](https://github.com)**  
-
-  Popular open-source (`Apache-2.0`) Pytest-style LLM evaluation framework offering 40+ research-backed metrics for faithfulness, hallucination, tool correctness, and CI/CD regression testing.
-
-
-
-- **[Ragas (`explodinggradients/ragas`)](https://github.com)**  
-
-  Widely adopted open-source (`Apache-2.0`) evaluation and synthetic test-data generation toolkit specialized in measuring retrieval precision, recall, and faithfulness in RAG pipelines.
-
-
-
-- **[Giskard (`Giskard-AI/giskard-oss`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) automated QA and testing framework for both traditional ML models and LLM agents scanning for performance bias, spurious correlations, hallucinations, and prompt injections.
-
-
-
-- **[Opik (`comet-ml/opik`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) end-to-end LLM evaluation and tracing platform from Comet built for logging high-volume traces, curating datasets, and running automated evaluations.
-
-
-
-- **[Alibi Detect (`SeldonIO/alibi-detect`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) Python library from Seldon focused on outlier, adversarial, and drift detection across tabular, text, image, and time-series ML workloads.
-
-
-
-- **[MLflow (`mlflow/mlflow`)](https://github.com)**  
-
-  Industry-standard open-source (`Apache-2.0`) MLOps platform featuring experiment tracking, model registry, `mlflow.evaluate()` automated ML/LLM scoring, and OpenTelemetry tracing.
-
-
-
-- **[Great Expectations (`great-expectations/great_expectations`)](https://github.com)**  
-
-  Leading open-source (`Apache-2.0`) data quality and pipeline observability framework preventing upstream schema shifts and corrupted features from silently degrading ML models.
-
-
-
-- **[Promptfoo (`promptfoo/promptfoo`)](https://github.com)**  
-
-  Fast open-source (`MIT`) CLI and library for declarative model/prompt benchmarking, CI/CD regression gating, and automated red-teaming.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[River (`online-ml/river`)](https://github.com)** and **[scikit-multiflow](https://github.com)** for streaming online machine learning and real-time concept-drift detectors (`ADWIN`, `DDM`, `Page-Hinkley`).
-
-- **[Fairlearn (`fairlearn/fairlearn`)](https://github.com)** and **[AI Fairness 360 (`Trusted-AI/AIF360`)](https://github.com)** for auditing and mitigating demographic bias and fairness metrics in predictive ML models.
-
-- **[SHAP (`shap/shap`)](https://github.com)** and **[LIME (`marcotcr/lime`)](https://github.com)** for model-agnostic feature attribution and local explainability alongside drift diagnostics.
-
-- **[Soda Core (`sodadata/soda-core`)](https://github.com)** and **[Elementary (`elementary-data/elementary`)](https://github.com)** for open-source data observability, anomaly detection, and dbt pipeline monitoring.
-
-- **[Prometheus + Grafana + SigNoz (`SigNoz/signoz`)](https://github.com)** for self-hosted OpenTelemetry backends storing and alerting on ML/LLM latency, drift, and evaluation metrics.
+All product names, logos, and brands are property of their respective owners. Mention of SaaS platforms or open-source projects does not constitute official endorsement. Pricing tiers, limits, and market valuations are compiled from public vendor documentation, marketplace listings, and financial analyses as of late 2026 and are subject to change.
