@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation?style=flat-square&logo=github" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation?style=flat-square" alt="GitHub Issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Observability-ML-Model-Evaluation/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License"/></a>
@@ -64,9 +64,9 @@ The global **AI Observability and LLM Evaluation market** is estimated at **$1.8
 ## 🔓 Open-Source GitHub Projects
 
 > [!TIP]
-> The table below showcases premier open-source frameworks for ML monitoring, LLM-as-a-judge evaluations, data drift calculations, and OpenTelemetry instrumentation. All repositories are sorted in descending order by **GitHub Star Count**. Star badges link directly to each project's stargazers community.
+> The table below showcases premier open-source frameworks for ML monitoring, LLM-as-a-judge evaluations, data drift calculations, and OpenTelemetry instrumentation. All repositories are sorted in descending order by **GitHub Stars_Count**. Stars_Badges link directly to each project's stargazers community.
 
-| Repository / Project | GitHub Stars 🌟 | Primary Category / Focus 🏷️ | Core Description & Capabilities 💡 |
+| Repository / Project | GitHub_Stars 🌟 | Primary Category / Focus 🏷️ | Core Description & Capabilities 💡 |
 | :--- | :---: | :--- | :--- |
 | **[Langfuse](https://github.com/langfuse/langfuse)** | [![Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers) | LLM Tracing & Eval Platform | Leading self-hostable open-source LLM engineering platform for full-stack trace observability, prompt versioning, evaluations, and latency/cost analytics. |
 | **[SigNoz](https://github.com/SigNoz/signoz)** | [![Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers) | Full-Stack OpenTelemetry APM | High-performance open-source APM native to OpenTelemetry, unifying distributed traces, application logs, and GPU/model performance metrics. |
